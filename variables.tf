@@ -39,6 +39,12 @@ variable "vm_name" {
     description = "Sunucu Adı:"
 }
 
+variable "computer_name" {
+    
+    type        = string
+    description = "Comp.Name:*"
+}
+
 
 variable "vm_description" {
     type        = string
@@ -106,6 +112,12 @@ variable "vm_ip" {
 variable "vm2_name" {
     type        = string
     description = "2.Sunucu Adı:"
+}
+
+variable "computer_name2" {
+    
+    type        = string
+    description = "2.Comp.Name:*"
 }
 
 
